@@ -40,7 +40,6 @@ def show_unique():
     util.disconnect_from_db(connection,cursor)
     return render_template('index.html', sql_table = tbl, table_title=col_names)
 
-
 if __name__ == '__main__':
     app.debug = True
     ip = '127.0.0.1'
