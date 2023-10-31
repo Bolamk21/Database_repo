@@ -1,7 +1,3 @@
-#CSCI 3700 HW3
-#Kameron G. Bolam  
-#John Russell
-
 from flask import Flask, render_template
 import util
 
